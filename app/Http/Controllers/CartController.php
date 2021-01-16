@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\Cart\CartCollection;
 use App\Http\Resources\Cart\CartResource;
 use App\Model\Cart;
 use Illuminate\Http\Request;
@@ -15,7 +16,7 @@ class CartController extends Controller
      */
     public function index()
     {
-        return Cart::all();
+        return   CartCollection::collection(Cart::all());
     }
 
     /**
