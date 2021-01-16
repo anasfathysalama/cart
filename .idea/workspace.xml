@@ -14,6 +14,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
@@ -149,6 +152,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610355603621</updated>
       <workItem from="1610355605032" duration="7272000" />
+      <workItem from="1610796826354" duration="4000" />
     </task>
     <servers />
   </component>
